@@ -109,7 +109,7 @@ class SimuladorPaginacion:
                       command=self.toggle_pause).pack(side="left", padx=10)
 
         # --- Panel de visualización ---
-        viz = ctk.CTkFrame(self.root, fg_color=self.colors["bg"])
+        viz = ctk.CTkFrame(self.root, fg_color="transparent")
         viz.pack(fill="both", expand=True, padx=10, pady=10)
 
         # Panel izquierdo (registro tipo CMD)
